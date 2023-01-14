@@ -1,0 +1,5 @@
+<!--pages/res2/res2.wxml-->
+<button bindtap="getInfo" >获取信息</button>
+<view style="width: 750rpx; height: 162rpx; display: block; box-sizing: border-box">
+      {{localdata[0]}}
+    </view>

@@ -1,0 +1,31 @@
+<!--pages/res1/res1.wxml-->
+
+<image class="house" src="/images/house.png" style="position: fixed; left: 65rpx; top: 142rpx"></image>
+
+<image class="onePeople" src="/images/1.png" mode="scaleToFill"></image>
+<image class="onePeople" src="/images/1.png" mode="scaleToFill" style="position: fixed; left: 120rpx; top: 266rpx"></image>
+
+
+<image class="twoPeople" src="/images/2.png" mode="scaleToFill" style="position: fixed; left: 120rpx; top: 202rpx"></image>
+
+<text style="position: relative; left: 325rpx; top: 162rpx" class="res1-name">一食堂</text>
+<text style="position: relative; left: 327rpx; top: 266rpx">三层</text>
+<text style="position: relative; left: 266rpx; top: 329rpx">二层</text>
+<text style="position: relative; left: 204rpx; top: 396rpx">一层</text>
+<image class="background" src="/images/thumbnail.jpg" mode="aspectFill" style="position: fixed; left: 0rpx; top: 0rpx; opacity: {{0.5}}"></image>
+<text style="position: fixed; left: 169rpx; top: 543rpx" >三层推荐就餐时间：20分钟后</text>
+
+<text style="position: fixed; left: 168rpx; top: 662rpx" >二层推荐就餐时间：11分钟后</text>
+
+<text style="position: fixed; left: 168rpx; top: 770rpx" >一层推荐就餐时间：15分钟后</text>
+
+
+
+
+
+
+
+
+
+
+

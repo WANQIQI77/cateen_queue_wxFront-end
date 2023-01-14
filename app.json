@@ -1,0 +1,19 @@
+{
+  "lazyCodeLoading": "requiredComponents",
+  "pages":[
+    "pages/thumbnail/thumbnail",
+    "pages/res1/res1",
+    "pages/res2/res2",
+    "pages/res3/res3",
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "Weixin",
+    "navigationBarTextStyle":"black"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}
