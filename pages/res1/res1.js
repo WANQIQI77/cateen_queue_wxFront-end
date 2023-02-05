@@ -1,4 +1,6 @@
 // pages/res1/res1.js
+const app=getApp();
+
 Page({
 
   /**

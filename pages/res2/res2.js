@@ -11,7 +11,7 @@ Page({
 getInfo()
 {
   wx.request({
-    url: 'https://www.ganduward.com:44329',
+    url: 'https://www.ganduward.com:443',
     method:'GET',
     data:{
       congestion:'',

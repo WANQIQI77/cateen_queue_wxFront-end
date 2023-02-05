@@ -1,6 +1,7 @@
 // pages/thumbnail/thumbnail.js
+//引入全局变量
+const app=getApp();
 Page({
-
   /**
    * 页面的初始数据
    */
@@ -9,21 +10,67 @@ Page({
     canteen2:"二食堂",
     canteen3:"三食堂"
   },
+
 //按钮的事件处理函数
   tapCanteen1(e){
     wx.navigateTo({
       url: '../res1/res1'
     })
+    wx.request({
+      url: 'https://www.ganduward.com:443',
+      method:'GET',
+      header: {
+        'content-type': 'application/json' // 默认值
+      },
+      success:(res) => {
+       this.setData({
+          localdata:res.data.split(";")//将数据给到data
+        })
+        console.log(this.data.localdata)
+        app.localdata.request=localdata;
+      }
+    })  
   },
   tapCanteen2(e){
     wx.navigateTo({
       url: '../res2/res2'
     })
+    wx.request({
+      url: 'https://www.ganduward.com:443',
+      method:'GET',
+      header: {
+        'content-type': 'application/json' // 默认值
+      },
+      success:(res) => {
+       this.setData({
+          localdata:res.data.split(";")//将数据给到data
+        })
+        console.log(this.data.localdata)
+        app.localdata.request=localdata;
+      }
+      
+    })
+  
   },
   tapCanteen3(e){
     wx.navigateTo({
       url: '../res3/res3'
     })
+    wx.request({
+      url: 'https://www.ganduward.com:443',
+      method:'GET',
+      header: {
+        'content-type': 'application/json' // 默认值
+      },
+      success:(res) => {
+       this.setData({
+          localdata:res.data.split(";")//将数据给到data
+        })
+        console.log(this.data.localdata)
+        app.localdata.request=localdata;
+      }
+    })
+  
   },
   /**
    * 生命周期函数--监听页面加载

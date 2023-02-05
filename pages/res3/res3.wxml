@@ -1,2 +1,2 @@
 <!--pages/res3/res3.wxml-->
-<button bindtap="openSocket" >获取信息</button>
+<text>pages/res3/res3.wxml</text>
