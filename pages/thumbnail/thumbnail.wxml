@@ -3,60 +3,33 @@
 <button type='primary'
         class="button1"
         size="mini"
-        bindtap="tapCanteen1" style="position: fixed; left: 468rpx; top: 902rpx">{{canteen1}}</button>
+        bindtap="tapCanteen1" style="position: fixed; left: 475rpx; top: 789rpx">{{canteen1}}</button>
 <button type='primary'
         class="button2"
         size="mini"
-        bindtap="tapCanteen2" style="position: fixed; left: 100rpx; top: 781rpx">{{canteen2}}</button>
+        bindtap="tapCanteen2" style="position: fixed; left: 170rpx; top: 646rpx">{{canteen2}}</button>
 <button type='primary'
         size="mini"
         class="button3"
-        bindtap="tapCanteen3" style="position: fixed; left: 100rpx; top: 331rpx">{{canteen3}}</button>
+        bindtap="tapCanteen3" style="position: fixed; left: 31rpx; top: 210rpx">{{canteen3}}</button>
 <image  
   class="background"
   src="/images/thumbnail.jpg" 
   mode="aspectFill"></image>
 
-<image
-  class="onePeople"
-  src="/images/1.png"
-  mode="scaleToFill" style="position: fixed; left: 350rpx; top: 668rpx"></image>
-
-  <image
-  class="twoPeople"
-  src="/images/2.png"
-  mode="scaleToFill" style="position: fixed; left: 20rpx; top: 511rpx"></image>
-<image
-  class="twoPeople"
-  src="/images/2.png"
-  mode="scaleToFill" style="position: fixed; left: 350rpx; top: 618rpx"></image>
 
 
-  <image
-  class="threePeople"
-  src="/images/3.png"
-  mode="scaleToFill" style="position: fixed; left: 20rpx; top: 204rpx"></image>
-<image
-  class="threePeople"
-  src="/images/3.png"
-  mode="scaleToFill" style="position: fixed; left: 20rpx; top: 149rpx"></image>
+  
 
-<image
-  class="onePeople"
-  src="/images/1.png"
-  mode="scaleToFill" style="position: fixed; left: 350rpx; top: 725rpx"></image>
-<image
-  class="onePeople"
-  src="/images/1.png"
-  mode="scaleToFill" style="position: fixed; left: 20rpx; top: 98rpx"></image>
 
-<image
-  class="twoPeople"
-  src="/images/2.png"
-  mode="scaleToFill" style="position: fixed; left: 20rpx; top: 561rpx"></image>
-<image
-  class="threePeople"
-  src="/images/3.png"
-  mode="scaleToFill" style="position: fixed; left: 20rpx; top: 617rpx"></image>
+
+  
+
+
+
+
+
+
+
 
 

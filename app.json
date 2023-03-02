@@ -5,9 +5,28 @@
     "pages/res1/res1",
     "pages/res2/res2",
     "pages/res3/res3",
-    "pages/index/index",
-    "pages/logs/logs"
+    "pages/my/my"
   ],
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#3cc51f",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/thumbnail/thumbnail",
+        "iconPath": "images/map1.png",
+        "selectedIconPath": "images/map11.png",
+        "text": "首页"
+      },
+      {
+        "pagePath":"pages/my/my",
+        "iconPath": "images/cash1.png",
+        "selectedIconPath": "images/cash2.png",
+        "text": "今日特价菜"      
+      }
+    ]
+  },
   "window":{
     "backgroundTextStyle":"light",
     "navigationBarBackgroundColor": "#fff",
@@ -16,4 +35,6 @@
   },
   "style": "v2",
   "sitemapLocation": "sitemap.json"
+
+ 
 }

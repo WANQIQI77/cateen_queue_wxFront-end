@@ -7,13 +7,38 @@ Page({
    * 页面的初始数据
    */
   data: {
-
+    /*
+    imgUrls: [
+      'http://p1.image.hiapk.com/uploads/allimg/150709/7730-150F9102Q9.jpg',
+      'http://img06.tooopen.com/images/20160818/tooopen_sy_175866434296.jpg',
+      'http://img06.tooopen.com/images/20160818/tooopen_sy_175833047715.jpg'
+    ],
+    indicatorDots: true,  //是否显示面板指示点
+    autoplay: true,      //是否自动切换
+    interval: 3000,       //自动切换时间间隔
+    duration: 1000,       //滑动动画时长
+    inputShowed: false,
+    inputVal: ""
+    */
   },
 
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad(options) {
+    wx.request({
+      url: 'https://www.ganduward.com/cateen1/cateen2/cateen3',
+      method:'GET',
+      header: {
+        'content-type': 'application/json' // 默认值
+      },
+      success:(res) => {
+       this.setData({
+          localdata:res.data.split(";")//将数据给到data
+        })
+        console.log(this.data.localdata)
+      }
+    })
 
   },
 
