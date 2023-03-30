@@ -2,34 +2,34 @@
 <image class="background" src="/images/thumbnail.jpg" mode="aspectFill" style="position: fixed; left: 0rpx; top: 0rpx; opacity: {{0.5}}"></image>
 
 <image class="third" 
-wx:if="{{localdata[0]<0.1}}"
-src="/images/1.png" mode="scaleToFill" style="position: fixed; left: 118rpx; top: 40rpx"></image>
+wx:if="{{localdata[4]<0.1}}"
+src="/images/1.png" mode="scaleToFill" style="position: fixed; left: 0rpx; top: 509rpx"></image>
 <image class="third" 
-wx:if="{{localdata[0]>0.1&&localdata[0]<0.6}}"
-src="/images/2.png" mode="scaleToFill" style="position: fixed; left: 118rpx; top: 40rpx"></image>
+wx:if="{{localdata[4]>0.1&&localdata[4]<0.6}}"
+src="/images/2.png" mode="scaleToFill" style="position: fixed; left: 0rpx; top: 509rpx"></image>
 <image class="third" 
 wx:else
-src="/images/3.png" mode="scaleToFill" style="position: fixed; left: 49rpx; top: 360rpx"></image>
+src="/images/3.png" mode="scaleToFill" style="position: fixed; left: 0rpx; top: 509rpx"></image>
 
 <image class="second"
-wx:if="{{localdata[0]<0.1}}"
-src="/images/1.png" mode="scaleToFill" style="position: fixed; left: 25rpx; top: 125rpx"></image>
+wx:if="{{localdata[2]<0.1}}"
+src="/images/1.png" mode="scaleToFill" style="position: fixed; left: 0rpx; top: 574rpx"></image>
 <image class="second"
-wx:if="{{localdata[0]>0.1&&localdata[0]<0.6}}"
-src="/images/2.png" mode="scaleToFill" style="position: fixed; left: 25rpx; top: 125rpx"></image>
+wx:if="{{localdata[2]>0.1&&localdata[2]<0.6}}"
+src="/images/2.png" mode="scaleToFill" style="position: fixed; left: 0rpx; top: 574rpx"></image>
 <image class="second"
 wx:else
-src="/images/3.png" mode="scaleToFill" style="position: fixed; left: 49rpx; top: 446rpx"></image>
+src="/images/3.png" mode="scaleToFill" style="position: fixed; left: 0rpx; top: 574rpx"></image>
 
 <image class="first" 
 wx:if="{{localdata[0]<0.1}}"
-src="/images/1.png" mode="scaleToFill" style="position: fixed; left: 118rpx; top: 329rpx"></image>
+src="/images/1.png" mode="scaleToFill" style="position: fixed; left: 0rpx; top: 641rpx"></image>
 <image class="first" 
 wx:if="{{localdata[0]>0.1&&localdata[0]<0.6}}"
-src="/images/2.png" mode="scaleToFill" style="position: fixed; left: 118rpx; top: 329rpx"></image>
+src="/images/2.png" mode="scaleToFill" style="position: fixed; left: 0rpx; top: 641rpx"></image>
 <image class="first" 
 wx:else
-src="/images/3.png" mode="scaleToFill" style="position: fixed; left: 49rpx; top: 532rpx"></image>
+src="/images/3.png" mode="scaleToFill" style="position: fixed; left: 0rpx; top: 641rpx"></image>
 
 
 <text style="position: relative; left: 325rpx; top: 0rpx" class="res1-name">一食堂</text>
@@ -37,13 +37,13 @@ src="/images/3.png" mode="scaleToFill" style="position: fixed; left: 49rpx; top:
 
 
 
-<text style="position: fixed; left: 325rpx; top: 426rpx; width: 349rpx; height: 41rpx; display: block; box-sizing: border-box">三层推荐就餐时间：{{localdata[5]}}
+<text style="position: fixed; left: 256rpx; top: 574rpx; width: 477rpx; height: 41rpx; display: block; box-sizing: border-box">三层推荐就餐时间：{{localdata[5]}}
 </text>
 
-<text style="position: fixed; left: 325rpx; top: 512rpx">二层推荐就餐时间：{{localdata[3]}}
+<text style="position: fixed; left: 256rpx; top: 641rpx; width: 477rpx; height: 41rpx; display: block; box-sizing: border-box">二层推荐就餐时间：{{localdata[3]}}
 </text>
 
-<text style="position: fixed; left: 325rpx; top: 598rpx; width: 349rpx; height: 41rpx; display: block; box-sizing: border-box">一层推荐就餐时间：{{localdata[1]}}
+<text style="position: fixed; left: 256rpx; top: 704rpx; width: 477rpx; height: 41rpx; display: block; box-sizing: border-box">一层推荐就餐时间：{{localdata[1]}}
 </text>
 
 <view class="banner">
@@ -56,7 +56,9 @@ src="/images/3.png" mode="scaleToFill" style="position: fixed; left: 49rpx; top:
 </view>
 
 
-
+<button type='primary'
+        bindtap="redirectToPage"
+        style="position: fixed; left: 160rpx; top: 1002rpx; width: 431rpx; height: 75rpx; display: block; box-sizing: border-box">点击跳转查看食堂菜品</button>
 
 
 

@@ -1,2 +1,3 @@
 <!--pages/my/my.wxml-->
-<text>pages/my/my.wxml</text>
+<web-view src="https://jsjb.ncepu.edu.cn/web/"></web-view>
+

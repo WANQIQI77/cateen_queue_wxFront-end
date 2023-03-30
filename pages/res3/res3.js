@@ -1,66 +1,52 @@
 // pages/res3/res3.js
 Page({
-
+ 
   /**
    * 页面的初始数据
    */
   data: {
 
   },
-
+  redirectToPage(e){
+    wx.navigateTo({
+      url: '../food/food'
+    })
+  },
   /**
    * 生命周期函数--监听页面加载
    */
-  onLoad(options) {
-
-  },
-
-  /**
-   * 生命周期函数--监听页面初次渲染完成
-   */
-  onReady() {
-
-  },
-
-  /**
-   * 生命周期函数--监听页面显示
-   */
-  onShow() {
-
-  },
-
-  /**
-   * 生命周期函数--监听页面隐藏
-   */
-  onHide() {
-
+  onLoad: function(options) {
+    //定义定时器
+    this.timer = setInterval(() => {
+      this.sendRequest();
+    }, 1000); // 每隔5秒发送一次请求
   },
 
   /**
    * 生命周期函数--监听页面卸载
    */
   onUnload() {
-
+    clearInterval(this.timer);
   },
 
-  /**
-   * 页面相关事件处理函数--监听用户下拉动作
-   */
-  onPullDownRefresh() {
-
-  },
-
-  /**
-   * 页面上拉触底事件的处理函数
-   */
-  onReachBottom() {
-
-  },
-
-  /**
-   * 用户点击右上角分享
-   */
-  onShareAppMessage() {
-
+  //发送请求函数
+  sendRequest() {
+    wx.request({
+      url: 'https://www.ganduward.com/cateen1/cateen2/cateen3',
+      method:'GET',
+      data:{
+        congestion:'',
+        waittime:'',
+      },
+      header: {
+        'content-type': 'application/json' // 默认值
+      },
+      success: (res) => {
+        this.setData({
+          localdata: res.data.split(";") //将数据给到data
+        });
+        console.log(this.data.localdata);
+      }
+    });
   }
-})
+});
