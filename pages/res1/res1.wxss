@@ -1,0 +1,59 @@
+/* pages/res1/res1.wxss */
+
+
+.house {
+  position: fixed;
+  top: 100rpx;
+  left: 70rpx;
+}
+
+.first {
+  width: 300rpx;
+  height: 214rpx;
+  position: fixed;
+  z-index: 0;
+  top: 330rpx;
+  left: 120rpx;
+}
+
+.second {
+  width: 300rpx;
+  height: 214rpx;
+  position: fixed;
+  z-index: 0;
+  top: 265rpx;
+  left: 120rpx;
+}
+
+.third {
+  width: 300rpx;
+  height: 214rpx;
+  position: fixed;
+  z-index: 0;
+  top: 200rpx;
+  left: 120rpx;
+}
+.background {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  z-index: -1;
+  background-size: 100%;
+}
+
+.banner{ 
+   
+  width: 100%;
+  height: 350rpx;
+}
+.banner swiper{ 
+   
+  height: 100%;
+  width: 100%;
+}
+.banner image{ 
+   
+  width: 100%;
+  height: 350rpx;
+}
+

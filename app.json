@@ -1,0 +1,46 @@
+{
+  "permission": {
+    "web-view": {
+      "domain": ["app.ncepu.edu.cn",
+        "jsjb.ncepu.edu.cn"
+      ]
+    }
+  },
+  "lazyCodeLoading": "requiredComponents",
+  "pages": [
+    "pages/thumbnail/thumbnail",
+    "pages/res1/res1",
+    "pages/res2/res2",
+    "pages/res3/res3",
+    "pages/my/my",
+    "pages/food/food"
+  ],
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#3cc51f",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/thumbnail/thumbnail",
+        "iconPath": "images/map1.png",
+        "selectedIconPath": "images/map11.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "iconPath": "images/my.png",
+        "selectedIconPath": "images/my1.png",
+        "text": "接诉即办"
+      }
+    ]
+  },
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "Weixin",
+    "navigationBarTextStyle": "black"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}
